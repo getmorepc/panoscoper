@@ -16,7 +16,7 @@
 				
 			var setPano = {
 				cursors		:	true,						// change cursor or not
-				debug		:	false,
+				debug		:	false,						// show the debug panel
 				width		:	$(this).outerHeight()/3*4,	// width of the panoscoper frame
 				height		:	$(this).outerHeight(),		// height of the panoscoper frame
 				direction	:	0,							// the point of view to start with
