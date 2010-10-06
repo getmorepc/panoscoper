@@ -12,8 +12,8 @@ An example of use would be $('#element').panoscope({ cursors:false }{ enabled:fa
 == Panorama Settings ==
 
   * cursors
-  ** Sets cursor to left and right arrow when moving
-  ** True/False, default is true
+    * Sets cursor to left and right arrow when moving
+    * True/False, default is true
   * debug
   ** Shows the current offset of the elements for setting bearing and direction
   ** True/False, default is false
