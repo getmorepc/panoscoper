@@ -1,0 +1,57 @@
+<!DOCTYPE html>   
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<!--[if IE]><![endif]-->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title></title>
+	<meta name="description" content="">
+	<meta name="keywords" content="" />
+	<meta name="author" content="">
+	<meta name="viewport" content="width=device-width; initial-scale=1.0">
+	<!-- !CSS -->
+	<link rel="stylesheet" href="css/style.css?v=1">
+	<!-- Uncomment if you are specifically targeting less enabled mobile browsers
+	<link rel="stylesheet" media="handheld" href="css/handheld.css?v=1">  -->
+	
+	<!-- !Modernizr - All other JS at bottom -->
+	<script src="js/modernizr-1.5.min.js"></script>
+	<style type="text/css">
+		.panoframe {
+			border: solid 5px black;
+		}
+	</style>
+</head>
+<!-- !Body -->
+<body>
+	<div id="container">
+		<header>
+		</header><!-- /header -->
+		
+		<section id="main">
+		
+			<img src="panorama.jpg" id="testin1" class="panoscope" alt="panorama" width="5202" height="600" />
+			
+			<img src="panorama.jpg" id="testin2" class="panoscope" alt="panorama" height="400" />
+			
+			<img src="panorama.jpg" id="testin3" class="panoscope" alt="panorama" height="200" />
+		
+		</section><!-- /main -->
+		
+		<footer>
+		
+		</footer><!-- /footer -->
+	</div><!--!/#container -->
+	<!-- !Javascript - at the bottom for fast page loading -->
+	<!-- Grab Google CDN's jQuery. fall back to local if necessary -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+	<script src="jquery.panoscoper-0.2.js"></script>
+	<script type="text/javascript">$(document).ready(function() {
+		$('.panoscope').panoscope({ direction:0, debug:true, momentum:80, height:200 },{ enabled:true });
+	}); </script>
+</body>
+</html>
