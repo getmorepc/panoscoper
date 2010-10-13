@@ -1,9 +1,9 @@
 #summary Optional settings for this plugin
 #labels Featured,Phase-Implementation
 
-= Introduction =
+= Panoscoper v0.2 =
 
-There are two sets of controls for the panoscoper plugin. The first array is for the panorama controls, layout and movement. The second are for the navigational elements and other features. All settings are optional.
+There are two sets of controls for the panoscoper plugin. The first array is for the panorama settings, layout and movement. The second are for the navigational elements and other features. All settings are optional.
 
 An example of use would be $('#element').panoscope({ cursors:false }{ enabled:false });
 
