@@ -5,7 +5,7 @@
 
 There are two sets of controls for the panoscoper plugin. The first array is for the panorama settings, layout and movement. The second are for the navigational elements and other features. All settings are optional.
 
-An example of use would be $('#element').panoscope({ cursors:false }{ enabled:false });
+An example of use would be $('#element').panoscope({ cursors:false },{ enabled:false });
 
 = API =
 
