@@ -91,7 +91,7 @@
 				
 				if(setPano.debug){
 				
-					var debugbox = '<div id="'+$(this).attr('id')+'-debugger" class="panodebug" style="float:right; position:absolute; background:black; color:white; padding:5px;">N/A</div>';
+					var debugbox = '<div id="'+$(this).attr('id')+'-debugger" class="panodebug" style="position:absolute; background:black; color:white; padding:5px; right:0;">N/A</div>';
 					console.log('Debugger is now online');
 					
 					panoviewer.before(debugbox);
@@ -105,6 +105,7 @@
 				panoframe.css('height', setPano.height)
 				.css('width', setPano.width)
 				.css('clear', 'both')
+				.css('position', 'relative')
 				.css('overflow', 'hidden');
 			
 				var pagepos = panoframe.offset(); // get the exact position of the frame for calculating mouse position later
@@ -136,7 +137,6 @@
 					xmov = e.pageX-((setPano.width/2)+pagepos.left);
 					if( pano.height() > setPano.height ) {
 						ymov = e.pageY-((setPano.height/2)+pagepos.top);
-						panoviewer
 					}
 				});
 				
