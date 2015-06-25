@@ -1,0 +1,3 @@
+The Panoscoper plugin is made to take any object (including embedded video objects) and wrap them as though they were 360° virtual environments. It has extensive options and can be customized to suit most applications, but is still being heavily developed.
+
+Check out our [API](API.md) and our [Trunk](https://code.google.com/p/panoscoper/source/browse/#svn/trunk) to get started with the newest version. Also, if your interested in hacking this, I've left helpful comments for any enterprising coders out there, but please share your changes. Anyone interested in helping with development, message me some of the changes you'd like to make or add, and I'll add you to the project.
